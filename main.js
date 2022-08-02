@@ -4,9 +4,11 @@ import { MyComponent } from "./component/MyComponent"
 
 
 
-let jsx = <MyComponent id="my">
-    <div>hello</div>
-</MyComponent>
+let jsx = <div>
+    <MyComponent id="my">
+        <div>hello</div>
+    </MyComponent>
+</div>
 
 console.log(jsx)
 
